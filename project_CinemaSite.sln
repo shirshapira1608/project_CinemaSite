@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "project_CinemaSite", "project_CinemaSite\", "{8F2FB3A9-3E6E-44EC-8404-47FB74C6AD74}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.7.2"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_56701"
+		Debug.AspNetCompiler.PhysicalPath = "project_CinemaSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56701\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_56701"
+		Release.AspNetCompiler.PhysicalPath = "project_CinemaSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_56701\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "56701"
+		SlnRelativePath = "project_CinemaSite\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4B050533-8D7F-4856-B965-1E3476690885}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F2FB3A9-3E6E-44EC-8404-47FB74C6AD74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F2FB3A9-3E6E-44EC-8404-47FB74C6AD74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F38EC97E-5EFC-4C85-928D-5423CB56E92E}
+	EndGlobalSection
+EndGlobal

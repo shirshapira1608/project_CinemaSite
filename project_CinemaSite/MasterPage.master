@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="StyleSheet1.css" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    
+    <div style="margin-right:0; display: inline-block">
+        <ul>
+            <li><a href="info.aspx"><b>HOME</b></a></li>
+            <li><a href="tickets.aspx"><b>TICKETS</b></a></li>
+            <li><a href="bar.aspx"><b>BAR</b></a></li>
+            <li><%=login_href %>
+                <ul>
+                    <li><a href="sign_in.aspx"><b>SIGN IN</b></a></li>                    
+                    <li><a href="register.aspx"><b>REGISTER</b></a></li>                    
+                </ul>
+            </li>
+            <li><a href="contact_us.aspx"><b>CONTACT US</b></a></li>
+            <li><%=administrator_href %>
+                <ul>
+                    <li><a href="administrator_delete.aspx"><b>DELETE</b></a></li>                    
+                    <li><a href="administrator_edit.aspx"><b>EDIT</b></a></li>                    
+                </ul>
+            </li>
+            <li><%=logout_button %></li>
+        </ul>
+        
+    </div>
+    <br />
+    <h1 style="font-size:60px; font-family: 'Agency FB'">SHINEMA - Shir's Cinema</h1>
+    <h1><%=name %></h1>
+        <h1><%=price %></h1>
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+
+</body>
+</html> 

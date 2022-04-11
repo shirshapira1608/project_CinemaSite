@@ -1,0 +1,34 @@
+﻿ul {
+    background-color: black;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+}
+
+a, .text {
+    color: white;
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+    li:hover, a:hover {
+        color: red;
+        background-color: antiquewhite;
+    }
+
+ul li ul {
+    position: absolute;
+    display: none;
+    padding: 0;
+}
+
+ul li ul li {
+    display: block;
+}
+
+ul li:hover ul {
+    display: block;
+}
